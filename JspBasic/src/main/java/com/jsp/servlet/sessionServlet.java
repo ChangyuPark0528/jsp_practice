@@ -60,6 +60,7 @@ public class sessionServlet extends HttpServlet {
                     + "    </script>\r\n"
                     + "";
             
+            
             w.write(htmlCode);
             w.flush();
             w.close();
